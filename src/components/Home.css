@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.home{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   height: 65vh;
+    color: #fff;
+}
+.home-content h1{
+    color: #fff;
+    font-family: "Poppins",Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+.home-content p{
+    font-family: "Caveat",Sans-serif;
+    
+    font-size: 32px;
+    font-weight: bold;
+}
+.home-content span{
+    background-color: #ffd52f;
+    color: #1024ae;
+    padding: 12px 7px;
+    
+}
+.home-right{
+    position: relative;
+}
+.home-rightimg{
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    width: 20rem;
+    /* animation-name: imgleft;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    animation-fill-mode: both; */
+    animation: imgleft 2s ease-in-out;
+}
+
+
+.home-img1{
+    /* transform: skew(-0.06turn, 3deg); */
+  
+    animation: imgtop 0.5s ease;
+}
+
+
+.info{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   height: 28vh;
+   /* background: url(../Assets/price-pattern-1.png); */
+  
+   background-size: cover;
+}
+.info-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    top: 0;
+    width: 80vw;
+    margin: 0 auto;
+    
+}
+.info-card{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: 2px 3px 4px blueviolet; */
+    overflow: hidden;
+}
+.info-card span{
+    font-family: "Archivo",Sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 35px;
+}
+
+.info-card h6{
+    font-family: "Poppins",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   margin: 1rem 0;
+}
+h6{
+    font-family: "Poppins",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bgimg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.bgimg img{
+    width: 100%;
+    object-fit: cover;
+}
+.info-card-data{
+    width: 100%;
+   
+    align-items: center;
+    
+}
+.info-card-data img{
+    width: 90px;
+   padding-top: 2rem;
+    object-fit: cover;
+}
+.info-card-backdata{
+    position: absolute;
+    transform: translateY(2rem);
+    width: 100%;
+    height: 16rem;
+    background-image: linear-gradient(100deg,#7474bf 0%,#348ac7 100%);
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.info-card-backdata p{
+    font-family: "Poppins",Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: .5px;
+    color: #fff;
+    padding: 20px 10px;
+}
+.info-card-frontdata{
+    transition: all 0.5s;
+        
+}
+.info-card:hover .info-card-backdata{
+    transform: translateY(-14.3rem);
+    z-index: 1000;
+    opacity: 1;
+}
+.info-card:hover .info-card-frontdata{
+    transform: translateY(-27.2rem);
+    z-index: 1000;
+    opacity: 1;
+}
+
+
+/* animation */
+
+@keyframes imgtop{
+  from{
+    transform: translateY(750px);
+    
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes imgleft{
+    0%{
+      transform: translateX(-750px);
+      opacity: 0;
+    }
+    40%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    70%{
+        transform: translateX(-50px);
+        opacity: 1;
+      }
+      80%{
+        transform: translateX(-10);
+        opacity: 1;
+      }
+      90%{
+        transform: translateX(-30px);
+        opacity: 1;
+      }
+      100%{
+        transform: translateX(0);
+        opacity: 1;
+      }
+  }
+/* media screen*/
+@media screen and (max-width:1024px){
+    .home-rightimg{
+        position: absolute;
+        left: 0;
+        top: 3rem;
+        width: 15rem;
+    }
+    .home-img1{
+        width: 90%;
+       
+    }
+    .info-card{
+        position: relative;
+        width: 250px;
+        height: 220px;
+        background-color: #fff;
+        margin: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* box-shadow: 2px 3px 4px blueviolet; */
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .info-card-container{
+       width: 90vw;        
+    }
+    .info-card{
+       
+        width: 200px;
+        height: 230px;
+       
+    }
+    h6{
+        font-family: "Poppins",Sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:425px){
+    .info{
+       flex-direction: column;
+       height: auto;
+       /* background: url(../Assets/price-pattern-1.png); */
+      
+     
+    }
+    .info-card-container{
+        width: 100vw;        
+     }
+}

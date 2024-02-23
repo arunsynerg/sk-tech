@@ -1,0 +1,16 @@
+.contact{
+    display: flex;
+    width: 65vw;
+    margin: 0 auto;
+}
+.contact-right{
+    flex: 0.5;
+    width: 100%;
+}
+.contact-left{
+    flex: 0.5;
+    width: 100%;
+}
+.contact-right img {
+    width: 80%;
+}

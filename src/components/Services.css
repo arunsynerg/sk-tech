@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.service{
+    width: 65vw;
+    margin: 0 auto;
+}
+.Service-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.service-card{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: 2px 3px 4px blueviolet; */
+    overflow: hidden;
+}
+.reason-card{
+    position: relative;
+    width: 215px;
+    
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: 2px 3px 4px blueviolet; */
+    overflow: hidden;
+}
+.reason-container h2{
+    color: #000;
+    font-family: "Archivo", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.reason-container h5{
+    color: #000;
+    font-family: "Archivo", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 3rem;
+    
+}
+.server{
+    height: 312px;
+}
+.shop{
+    height: 297px;
+}
+.rupees{
+    height: 375px;
+}
+.time{
+    height: 416px;
+}
+.verify{
+    height: 375px;
+    top: -120px;
+}
+.call{
+    height: 271px;
+    top: -80px;
+}
+.startup{
+    height: 227px;
+    width: 442px;
+}
+.reason-card span{
+    font-family: "Archivo",Sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 35px;
+}
+.reason-card h6{
+    font-family: "Poppins",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.reason-card-data{
+    width: 100%;
+   
+    align-items: center;
+    
+}
+.reason-card-data p{
+    margin: 1rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: .5px;
+    color: #000;
+}
+.reason-card-data img{
+    width: 90px;
+   padding-top: 2rem;
+    object-fit: cover;
+}
+.service h4{
+    color: #000;
+    font-family: "Archivo",Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.service p{
+    font-family: "Archivo",Sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+.service-card span{
+    font-family: "Archivo",Sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 35px;
+}
+.service-card h6{
+    font-family: "Poppins",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.e-container{
+    display: flex;
+   
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+    
+   
+    
+}
+/* .leftcon{
+    flex:0.3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightcon{
+    flex:0.7;
+    
+    display: flex;
+    flex-wrap: wrap;
+} */
+.bgimg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.bgimg img{
+    width: 100%;
+    object-fit: cover;
+}
+.service-card-data{
+    width: 100%;
+   
+    align-items: center;
+    
+}
+.service-card-data img{
+    width: 90px;
+   padding-top: 2rem;
+    object-fit: cover;
+}
+.service-card-backdata{
+    position: absolute;
+    transform: translateY(2rem);
+    width: 22rem;
+    height: 16rem;
+    background-image: linear-gradient(100deg,#7474bf 0%,#348ac7 100%);
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.service-card-backdata p{
+    font-family: "Poppins",Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: .5px;
+    color: #fff;
+    padding: 20px 10px;
+}
+.service-card-frontdata{
+    transition: all 0.5s;
+        
+}
+.service-card:hover .service-card-backdata{
+    transform: translateY(-15.5rem);
+    z-index: 1000;
+    opacity: 1;
+}
+.service-card:hover .service-card-frontdata{
+    transform: translateY(-25.2rem);
+    z-index: 1000;
+    opacity: 1;
+}
+
+
+/*media screen*/
+
+@media screen and (max-width:1440px){
+    .service{
+        width: 80vw;
+        margin: 0 auto;
+    }
+  }
+@media screen and (max-width:1024px){
+    .service{
+        width: 98vw;
+        margin: 0 auto;
+    }
+    .service-card{
+       
+        width: 300px;
+        height: 250px;      
+    }
+    .e-container{
+        gap: 0;
+    }
+}
+@media screen and (max-width:768px){
+    .reason-card{
+        width: 150px;
+     }
+    .startup{
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .reason-card{
+        width: 250px;
+        height: auto;
+     }
+     .verify{
+       
+        top: 0px;
+    }
+    .call{
+        
+        top: 0px;
+    }
+    
+}
