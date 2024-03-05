@@ -5,9 +5,9 @@ import { useState } from "react";
 function Nav(){
 
     const [screen, setScreen] = useState(false);
-    // const clickeve = ()=>{
-    //     return (setScreen((screen ? 'false' : 'true')))
-    // }
+    const clickeve = ()=>{
+        return (setScreen((screen ? false : true)))
+    }
     return(
         <>
         <div className="nav-container">
@@ -23,7 +23,7 @@ function Nav(){
                     <Link to='contact' smooth={true} duration={1000} ><li>Contact Us</li></Link>
                     <li>Technical Support</li>
                 </ul>
-                <HiMenuAlt2 className="menubtn" onClick={()=>{setScreen((screen ? 'false' : 'true'))}}/>
+                <HiMenuAlt2 className="menubtn" onClick={clickeve}/>
             </div>
             
 

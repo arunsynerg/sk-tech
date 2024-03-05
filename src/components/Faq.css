@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.faq-container{
+    width:100%;
+    font-family: "Archivo", Sans-serif;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+.faq-item{
+    
+    text-align: start;
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+    overflow: hidden;
+}
+.expand-btn{
+    position: absolute;
+    right: 1.2rem;
+    top: 1.5rem;
+    margin: auto 0;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.faq-item-header{
+    position: relative;
+
+    padding: 1rem;
+    background-color:#bdc3c7;
+    transition: background-color 0.5s ease;
+}
+.faq-item-header:hover{
+    background-color:#7f8c8d;
+}
+.faq-item-body{
+    
+    background-color: #ecf0f1;
+    max-height: 0px;
+    transition: max-height 0.5s ease-in-out;
+}
+.faq-item.active .faq-item-body{
+    padding: 1rem;
+    max-height: 200rem;
+    transition: max-height 0.5s ease;
+}

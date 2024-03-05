@@ -51,11 +51,12 @@ h4 {
 .top-navigate-btn{
   position:fixed;
   top: 95%;
+  z-index: 1000;
   right: 1rem;
   width: 2rem;
   height: 2rem;
   background-color: rgb(128, 135, 135);
-
+cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +74,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
 }
 .whatsapp-btn a{
   text-decoration: none;
@@ -82,6 +84,7 @@ h4 {
 .whatsapp-btn .whatsapp-logo{
   width: 4rem;
   height: 4rem;
+  
 }
 .tooltip{
   opacity: 0;
@@ -123,6 +126,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: auto;
    
   }
 }

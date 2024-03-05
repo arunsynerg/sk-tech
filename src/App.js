@@ -15,7 +15,7 @@ function App() {
       <Backgorund />
       <Home />
       <About />
-      <Services />
+       <Services />
       <Contact />
     </div>
   );

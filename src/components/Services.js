@@ -12,6 +12,7 @@ import rupees from "../Assets/rupee-1.svg";
 import time from "../Assets/time.svg";
 import verify from "../Assets/verify.svg";
 import startup from "../Assets/startup.svg";
+import Faq from "./Faq";
 
 function Services() {
   var econstyle = {
@@ -208,6 +209,7 @@ function Services() {
        </div>
         </div>
       </div>
+      <Faq />
     </div>
   );
 }

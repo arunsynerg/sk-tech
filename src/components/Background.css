@@ -9,3 +9,8 @@
 .background-img img{
     object-fit: cover;
 }
+@media screen and (max-width:425px){
+    .background-img{
+        height: 100vh;
+    }
+}
