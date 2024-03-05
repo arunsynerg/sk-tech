@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sk-tech/static/css/main.6e1cdeb9.css",
+    "main.js": "/sk-tech/static/js/main.552c33b9.js",
+    "static/js/592.ae99cd3e.chunk.js": "/sk-tech/static/js/592.ae99cd3e.chunk.js",
+    "static/media/about.svg": "/sk-tech/static/media/about.6fc50dd57f8c8e3245e23fe8ddc73058.svg",
+    "static/media/ezgif.com-gif-maker.webp": "/sk-tech/static/media/ezgif.com-gif-maker.1e0f846d7b8f9905bece.webp",
+    "static/media/contact.svg": "/sk-tech/static/media/contact.851b443992a1e12c5e30c8d9fedb67db.svg",
+    "static/media/ezgif.com-gif-maker-3.webp": "/sk-tech/static/media/ezgif.com-gif-maker-3.4087412b55fea9c801d8.webp",
+    "static/media/image-2.jpg": "/sk-tech/static/media/image-2.349ead0aaf19bd700362.jpg",
+    "static/media/ux.svg": "/sk-tech/static/media/ux.8260c786d72bb9d850236e51ed6bc015.svg",
+    "static/media/responsive.svg": "/sk-tech/static/media/responsive.6e8138ae2978ff51f3157ffb3856e8a3.svg",
+    "static/media/content-writing.svg": "/sk-tech/static/media/content-writing.f257ac4555c7a8c4c1a2fe712f73b0e6.svg",
+    "static/media/app-development.svg": "/sk-tech/static/media/app-development.17af2b5d91c6b9f32c15bd8d1564829d.svg",
+    "static/media/logo-design.svg": "/sk-tech/static/media/logo-design.b3b65a803e796e42624d49e9224810c2.svg",
+    "static/media/server.svg": "/sk-tech/static/media/server.24e8ffa3dbfe2c0ee1608029ab506b61.svg",
+    "static/media/online-shopping.svg": "/sk-tech/static/media/online-shopping.b99907df9a66a226a03443b78cc39d8c.svg",
+    "static/media/startup.svg": "/sk-tech/static/media/startup.8cf30dfafe0c47ad5d98e38cc2677647.svg",
+    "static/media/service-pattern.png.webp": "/sk-tech/static/media/service-pattern.png.c9c487f79aa143e5687c.webp",
+    "static/media/customer-service.svg": "/sk-tech/static/media/customer-service.ac83c1a20b8fb20885df6254063ce58f.svg",
+    "static/media/time.svg": "/sk-tech/static/media/time.51781a87624fe0312b0f827ae91e4790.svg",
+    "static/media/rupee-1.svg": "/sk-tech/static/media/rupee-1.a81b628a3c288166f9df2316b6ea0c01.svg",
+    "static/media/verify.svg": "/sk-tech/static/media/verify.6070d927799c6f3de513129c6b4df555.svg",
+    "index.html": "/sk-tech/index.html",
+    "main.6e1cdeb9.css.map": "/sk-tech/static/css/main.6e1cdeb9.css.map",
+    "main.552c33b9.js.map": "/sk-tech/static/js/main.552c33b9.js.map",
+    "592.ae99cd3e.chunk.js.map": "/sk-tech/static/js/592.ae99cd3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e1cdeb9.css",
+    "static/js/main.552c33b9.js"
+  ]
+}
