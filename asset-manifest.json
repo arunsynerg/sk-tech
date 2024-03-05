@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sk-tech/static/css/main.6e1cdeb9.css",
+    "main.css": "/sk-tech/static/css/main.de9b68b4.css",
     "main.js": "/sk-tech/static/js/main.552c33b9.js",
     "static/js/592.ae99cd3e.chunk.js": "/sk-tech/static/js/592.ae99cd3e.chunk.js",
     "static/media/about.svg": "/sk-tech/static/media/about.6fc50dd57f8c8e3245e23fe8ddc73058.svg",
@@ -22,12 +22,12 @@
     "static/media/rupee-1.svg": "/sk-tech/static/media/rupee-1.a81b628a3c288166f9df2316b6ea0c01.svg",
     "static/media/verify.svg": "/sk-tech/static/media/verify.6070d927799c6f3de513129c6b4df555.svg",
     "index.html": "/sk-tech/index.html",
-    "main.6e1cdeb9.css.map": "/sk-tech/static/css/main.6e1cdeb9.css.map",
+    "main.de9b68b4.css.map": "/sk-tech/static/css/main.de9b68b4.css.map",
     "main.552c33b9.js.map": "/sk-tech/static/js/main.552c33b9.js.map",
     "592.ae99cd3e.chunk.js.map": "/sk-tech/static/js/592.ae99cd3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e1cdeb9.css",
+    "static/css/main.de9b68b4.css",
     "static/js/main.552c33b9.js"
   ]
 }
