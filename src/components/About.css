@@ -61,6 +61,7 @@ cursor: pointer;
   align-items: center;
   justify-content: center;
   transition: color ease-in-out 0.5s;
+  transition: all ease-in 0.5s;
 }
 .top-navigate-btn:hover{
   background-color: rgb(62, 64, 64);
@@ -90,11 +91,11 @@ cursor: pointer;
   opacity: 0;
   color: #000;
  
-  
+  transition: all ease 0.5s;
 }
 .whatsapp-btn:hover .tooltip{
-
-  animation: tooltipshow 0.5s ease-in 0.3s ;
+opacity: 1;
+  /* animation: tooltipshow 0.5s ease-in 0.3s ; */
  
 }
 @keyframes tooltipshow {
